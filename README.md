@@ -14,8 +14,6 @@ Este repositório contém uma API RESTful para gerenciamento de filmes, desenvol
 
 ## Estrutura do Projeto
 
-A seguir, a estrutura principal de diretórios e arquivos do projeto:
-
 ```
 . 
 ├── Config
@@ -189,7 +187,7 @@ A API utiliza o **MySQL** como banco de dados. A conexão é configurada no arqu
 
 ### Rodando o Banco com Docker
 
-Caso você tenha o Docker instalado em sua máquina, pode subir rapidamente um container com o MySQL configurado exatamente para as necessidades deste projeto executando o seguinte comando:
+Com o MySQL configurado exatamente para as necessidades deste projeto, execute o seguinte comando:
 
 ```bash
 docker run --name bancoFilmes -e MYSQL_DATABASE=filme -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:oraclelinux9
